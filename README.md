@@ -1,13 +1,12 @@
-<<<<<<< HEAD
-# Ethereum Classic Web
+# Elastic Project Web
 
-Thanks for supporting Ethereum Classic!
+Thanks for supporting Elastic Project!
 
 This app is written in [gatsby](https://github.com/gatsbyjs/gatsby) (React & ES6) and generates static HTML to be served by github pages.
 
 ## Contributing
 
-**Please checkout the [`source`](https://github.com/ethereumclassic/ethereumclassic.github.io/tree/source) branch for making updates**
+**Please checkout the [`source`](https://github.com/elastic-coin/elastic-project.github.io/tree/source) branch for making updates**
 
 Do not directly modify `master` branch; it is for [serving](https://help.github.com/articles/user-organization-and-project-pages/) the compiled static html only
 
@@ -15,7 +14,7 @@ Do not directly modify `master` branch; it is for [serving](https://help.github.
 
 Create a copy of the website code on your Github account:
        Create a github.com account.
-       Visit https://github.com/ethereumclassic/ethereumclassic.github.io .
+       Visit https://github.com/elastic-coin/elastic-project.github.io .
        Click on "Fork" button in upper right.
 
 To set up your name and email in Git:
@@ -23,8 +22,8 @@ To set up your name and email in Git:
        git config --global user.name "<your name goes here>"
 
 To upload a new Markdown file:
-       git clone https://github.com/<your Github username>/ethereumclassic.github.io.git
-       cd ethereumclassic.github.io
+       git clone https://github.com/<your Github username>/elastic-project.github.io.git
+       cd elastic-project.github.io
        git checkout source
        Add MD file under pages/blog.
        Rename your MD file to have YYYY-MM-DD-your-title-goes-here.md format.
@@ -39,14 +38,14 @@ To upload a new Markdown file:
        git push
 
 To create a pull request to notify ETC website mainters of your file:
-       Visit https://github.com/<your Github username>/ethereumclassic.github.io.git .
+       Visit https://github.com/<your Github username>/elastic-project.github.io.git .
        Click on "Compare & pull request" in upper right.
        Add description to form.
        Click the "Create pull request" in middle right.
 
 #### Where to add content?
 
-* *Blog Posts*: Just add a new markdown file in `/pages/blog` similar to [this](https://github.com/ethereumclassic/ethereumclassic.github.io/blob/source/pages/blog/2016-08-14-new-website.md)
+* *Blog Posts*: Just add a new markdown file in `/pages/blog` similar to [this](https://github.com/elastic-coin/elastic-project.github.io/blob/source/pages/blog/2016-10-15-total-coin-supply-100m-xel-coin.md)
 * *Press Articles*: Add a new item to the top of the list in `/contents/press.yaml`
 * *Fork Timeline*: As time goes by, drama unfolds, and the timeline needs to be updated. This can be edited in `components/home/fork-timeline.js`. Get icon refs from [font awesome](http://fontawesome.io/icons/)
 * *Advanced Editing*: The whole app is written in react, you can modify the layout of the landing page and drill down into components from `/pages/index.js`
@@ -81,6 +80,3 @@ You can also manually deploy (not recommended) by pushing to the `master` branch
 ## License
 
 Everything that's not already copyrighted is licensed under [CC0](https://creativecommons.org/choose/zero/) (for graphics) and [TBD ULTRA-OPEN PUBLIC DOMAIN LICENSE].
-=======
-# elastic-project.github.io
->>>>>>> 37cc605b2f7bcf5d37c81ce613deb95ae0d82cae
