@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Ethereum Classic Web
 
 Thanks for supporting Ethereum Classic!
@@ -80,3 +81,6 @@ You can also manually deploy (not recommended) by pushing to the `master` branch
 ## License
 
 Everything that's not already copyrighted is licensed under [CC0](https://creativecommons.org/choose/zero/) (for graphics) and [TBD ULTRA-OPEN PUBLIC DOMAIN LICENSE].
+=======
+# elastic-project.github.io
+>>>>>>> 37cc605b2f7bcf5d37c81ce613deb95ae0d82cae
