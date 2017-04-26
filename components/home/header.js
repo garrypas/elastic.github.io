@@ -12,7 +12,6 @@ import SocialLinks from '../social-links'
 import PriceTicker from '../price-ticker'
 import BannerAd from './banner-ad'
 
-import bannerImg from '../../assets/etc-london-meetup-dec-2016.png'
 
 export default class Header extends Component {
   componentDidMount () {
@@ -37,6 +36,7 @@ export default class Header extends Component {
             {' '}<span>computer</span>
           </h2>
           <Dropdown label="Information">
+            <DropdownItem target="_blank" link="//github.com/elastic-coin/whitepaper">Whitepaper (Outdated / Will be revised)</DropdownItem>
             <DropdownItem target="_blank" link="//github.com/elastic-coin/faq">Elastic FAQ</DropdownItem>
           </Dropdown>
           &nbsp;{' '}&nbsp;
