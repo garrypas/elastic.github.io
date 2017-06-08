@@ -19,7 +19,7 @@
   },
   "optionalDependencies": {
     "fsevents": "*"
-  },   
+  },
   "devDependencies": {
     "babel-plugin-add-module-exports": "^0.2.1",
     "babel-plugin-react-transform": "^2.0.2",

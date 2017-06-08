@@ -1,7 +1,7 @@
 ---
 title: Total Coin Supply 100 Million XEL
 date: 2016-09-15
-author: byrallier
+author: by rallier
 ---
 
 Total coin supply voted by Elastic Community and changed to 100 Million Coin From 5 Million

@@ -1,7 +1,7 @@
 $white: #efefef;
 $grey: #ccc;
 $charcol: #666;
-$xelBlue: #3A708F;
+$xelGreen: #22B24C;
 $red: #a61e1e;
 $orange: #d37c00;
 $purple: #8702d4;
@@ -10,7 +10,7 @@ $blue: #0754d4;
 $darkWhite: darken($white, 10);
 $darkGrey: darken($grey, 10);
 $darkCharcol: darken($charcol, 10);
-$darkGreen: darken($xelBlue, 10);
+$darkGreen: darken($xelGreen, 10);
 $darkRed: darken($red, 10);
 $darkOrange: darken($orange, 10);
 $darkPurple: darken($purple, 10);
@@ -19,7 +19,7 @@ $darkBlue: darken($blue, 10);
 $darkerWhite: darken($white, 30);
 $darkerGrey: darken($grey, 30);
 $darkerCharcol: darken($charcol, 30);
-$darkerGreen: darken($xelBlue, 30);
+$darkerGreen: darken($xelGreen, 30);
 $darkerRed: darken($red, 30);
 $darkerOrange: darken($orange, 30);
 $darkerPurple: darken($purple, 30);
@@ -46,7 +46,7 @@ ul li {
 
 ::selection {
   color: $white;
-  background: $xelBlue;
+  background: $xelGreen;
 }
 
 a{
@@ -59,7 +59,7 @@ a{
 }
 
 .mui-btn--primary {
-  background-color: $xelBlue;
+  background-color: $xelGreen;
   &:hover, &:active, &:focus {
     background-color: $darkGreen;
   }
@@ -128,7 +128,7 @@ a{
     height: 30vh;
   }
   h1 {
-    color: $xelBlue;
+    color: $xelGreen;
     padding: 0.5em 0em;
     font-size: 4em;
     line-height: 1em;
@@ -170,7 +170,7 @@ a{
 }
 
 .footer {
-  background: linear-gradient(0deg, $xelBlue, $darkGreen);
+  background: linear-gradient(0deg, $xelGreen, $darkGreen);
   width: 100%;
   padding: 1em 0em;
 }
@@ -197,7 +197,7 @@ a{
     opacity: 0.2;
     height: 14em;
     width: 14em;
-    color: $xelBlue;
+    color: $xelGreen;
     svg {
       height: 100%;
       width: 100%;
@@ -260,7 +260,7 @@ a{
     .timeline-item {
       // default colors
       &{ @include timelineItemColor($charcol, $darkCharcol); }
-      &.green{ @include timelineItemColor($xelBlue, $darkGreen); }
+      &.green{ @include timelineItemColor($xelGreen, $darkGreen); }
       &.red{ @include timelineItemColor($red, $darkRed); }
       &.blue{ @include timelineItemColor($blue, $darkBlue); }
       &.white{
@@ -342,7 +342,7 @@ a{
       background:transparent
     }
     &::-webkit-scrollbar-thumb {
-      background: linear-gradient(90deg, $xelBlue, $darkGreen);
+      background: linear-gradient(90deg, $xelGreen, $darkGreen);
       border-radius: 10px;
     }
   }
