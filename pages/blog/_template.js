@@ -17,7 +17,7 @@ export default class BlogTempalte extends Component {
         <div className="blog-header">
           <h3>
             <Link to={prefixLink('/')}>
-              <img className="logo" src={prefixLink('')+xelLogo} alt="Elastic Project" />
+              <img className="logo" src={prefixLink('/')+xelLogo} alt="Elastic Project" />
               Elastic Project
             </Link> Blog
           </h3>
