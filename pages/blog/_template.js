@@ -7,7 +7,7 @@ import Row from 'muicss/lib/react/row'
 import Col from 'muicss/lib/react/col'
 import Panel from 'muicss/lib/react/panel'
 
-import etcLogo from '../../assets/xel_logo.png'
+import xelLogo from '../../assets/xel_logo.png'
 import NewsItems from '../../components/news-items'
 
 export default class BlogTempalte extends Component {
@@ -17,7 +17,7 @@ export default class BlogTempalte extends Component {
         <div className="blog-header">
           <h3>
             <Link to={prefixLink('/')}>
-              <img className="logo" src={etcLogo} alt="Elastic Project" />
+              <img className="logo" src={xelLogo} alt="Elastic Project" />
               Elastic Project
             </Link> Blog
           </h3>
