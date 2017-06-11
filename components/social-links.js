@@ -4,6 +4,7 @@ import Dropdown from 'muicss/lib/react/dropdown'
 import DropdownItem from 'muicss/lib/react/dropdown-item'
 
 import Github from 'react-icons/lib/fa/github-alt'
+import Bitcoin from 'react-icons/lib/fa/bitcoin'
 import Twitter from 'react-icons/lib/fa/twitter'
 import Slack from 'react-icons/lib/fa/slack'
 import Reddit from 'react-icons/lib/fa/reddit-alien'
@@ -16,6 +17,7 @@ export default class SocialLinks extends Component {
   render () {
     return (
       <Dropdown label="Social Links" className="social-links">
+        <DropdownItem link="https://bitcointalk.org/index.php?topic=1957064" target="_blank"><Bitcoin className="icon" /> Announcement - Bitcointalk Forum</DropdownItem>
         <DropdownItem link="https://elasticfans.herokuapp.com/" target="_blank"><Slack className="icon" /> Slack</DropdownItem>
         <DropdownItem link="https://twitter.com/elastic_coin" target="_blank"><Twitter className="icon" /> Twitter</DropdownItem>
         <DropdownItem link="https://www.reddit.com/r/elasticproject/" target="_blank"><Reddit className="icon" /> Reddit</DropdownItem>

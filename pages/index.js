@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 
 import Header from '../components/home/header'
-import WhyClassic from '../components/home/why-classic'
+import WhyElastic from '../components/home/why-elastic'
 import Community from '../components/home/community'
 import ForkTimeline from '../components/home/fork-timeline'
 import News from '../components/home/news'
@@ -11,6 +11,7 @@ export default class Homepage extends Component {
     return (
       <article className="homepage">
         <Header />
+		<WhyElastic />
         <News />
       </article>
     )

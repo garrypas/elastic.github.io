@@ -2,7 +2,7 @@ import React from 'react'
 import Helmet from 'react-helmet'
 import { prefixLink } from 'gatsby-helpers'
 
-import favicon from './assets/xel_logo.png'
+import favicon from './assets/favicon.png'
 
 const BUILD_TIME = new Date().getTime()
 

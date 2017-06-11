@@ -1,4 +1,4 @@
-$white: #efefef;
+$white: #ffffff;
 $grey: #ccc;
 $charcol: #666;
 $xelGreen: #22B24C;
@@ -6,6 +6,7 @@ $red: #a61e1e;
 $orange: #d37c00;
 $purple: #8702d4;
 $blue: #0754d4;
+$black: #aaaaaa;
 
 $darkWhite: darken($white, 10);
 $darkGrey: darken($grey, 10);
@@ -28,7 +29,7 @@ $darkerBlue: darken($blue, 30);
 $defaultPadding: 3em;
 
 body {
-  font-family: "Roboto", "Helvetica Neue", Helvetica, sans-serif;
+  /*font-family: "Roboto", "Helvetica Neue", Helvetica, sans-serif;*/
   background: $white;
 }
 
@@ -119,13 +120,14 @@ a{
 
 .main-header {
   position: relative;
-  background: linear-gradient(0deg, $darkWhite, $white);
+  /*background: linear-gradient(0deg, $white, $black);*/
+  background: linear-gradient(0deg, #ececec, #ffffff);
   color: #666;
   .inner {
     position: relative;
   }
   .logo {
-    height: 30vh;
+    height: 20vh;
   }
   h1 {
     color: $xelGreen;
@@ -465,4 +467,23 @@ a{
   }
   display: block;
   margin-bottom: 2em;
+}
+
+
+.hrbottom { 
+  height: 30px; 
+  border-style: solid; 
+  border-color: #8c8b8b; 
+  border-width: 1px 0 0 0; 
+  border-radius: 20px; 
+} 
+.hrbottom:before { 
+  display: block; 
+  content: ""; 
+  height: 30px; 
+  margin-top: -31px; 
+  border-style: solid; 
+  border-color: #8c8b8b; 
+  border-width: 0 0 1px 0; 
+  border-radius: 20px; 
 }
