@@ -41,9 +41,8 @@ export default class WhatCanDoElastic extends Component {
             target="_blank"
           >
             Elastic Compared to Other Competitors
-          </a>
+          </a> 
 		  
-		  <br />
           <a
             className="mui-btn mui-btn mui-btn--raised mui-btn--primary"
             href={'http://localhost:8000/blog/2017-06-11-bitcoin-mining-with-decentralized-supercomputer/'}

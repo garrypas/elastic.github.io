@@ -23,6 +23,8 @@ module.exports = React.createClass({
         <head>
           <meta charSet="utf-8" />
           <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
+          <meta name="keywords" content="elastic, elastic project, xel, xel coin, decentralized super computer" />
+          <meta name="description" content="Elastic is an open-source project that aims to build the first decentralized supercomputer." />
           <link href="https://fonts.googleapis.com/css?family=Roboto:400,300,700&subset=latin,latin-ext" rel="stylesheet" type="text/css" />
           <link rel="icon" type="image/ico" href={favicon} />
           <meta
