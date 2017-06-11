@@ -8,6 +8,7 @@ import DropdownItem from 'muicss/lib/react/dropdown-item'
 
 import xelLogo from '../../assets/xel_logo.png'
 import particlesConfig from './particles-config.json'
+import Newsletter from '../newsletter'
 import SocialLinks from '../social-links'
 import PriceTicker from '../price-ticker'
 import BannerAd from './banner-ad'
@@ -24,17 +25,25 @@ export default class Header extends Component {
       <Container fluid className="mui--text-center main-header">
         <div id="particles" />
         <Container className="inner">
-          <img src={xelLogo} alt="Elastic Project Logo" className="logo" />
-          <h1>
-            elastic
-            <br />
-            project
-          </h1>
-          <h2>
-            <span>decentralized</span>
-            {' '}<span>super</span>
-            {' '}<span>computer</span>
-          </h2>
+          <img src={xelLogo} alt="Elastic Project" className="logo" />
+		  <h1 className="dnone">
+			<span>elastic</span>
+			<span>project</span>
+		  </h1>
+		  <h2 className="dnone">
+			<span>decentralized</span>
+			{' '}<span>super</span>
+			{' '}<span>computer</span>
+		 </h2>
+		  <br/>
+          <br/>
+		  <br/>
+          
+		  <h2>
+			<span>Join</span>
+			<span>Our</span>
+			<span>Revolution</span>
+		  </h2>
           <Dropdown label="Information">
             <DropdownItem target="_blank" link="//github.com/elastic-coin/whitepaper">Whitepaper (Outdated / Will be revised)</DropdownItem>
             <DropdownItem target="_blank" link="//github.com/elastic-coin/faq">Elastic FAQ</DropdownItem>
@@ -60,8 +69,12 @@ export default class Header extends Component {
           </Dropdown>
           &nbsp;{' '}&nbsp;
           <SocialLinks />
-          <br/>
-          Donate: <code>ELASTIC_FOUNDATION_WALLET</code>
+          
+		  <br/>
+		  <br/>
+		  <br/>
+		  
+		  <Newsletter />
         </Container>
       </Container>
     )
