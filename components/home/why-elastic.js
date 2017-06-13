@@ -37,7 +37,7 @@ export default class WhatCanDoElastic extends Component {
             href={'https://github.com/elastic-coin/elastic-pl/blob/master/README.md'}
             target="_blank"
           >
-            Elastic PL
+            more Elastic PL
           </a>
 		  
 		  <a
