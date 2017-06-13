@@ -25,7 +25,7 @@ export default class Header extends Component {
       <Container fluid className="mui--text-center main-header">
         <div id="particles" />
         <Container className="inner">
-          <img src={xelLogo} alt="Elastic Project" className="logo" />
+          <a href="https://www.elastic.pw" title="First Decentralized Super Computer"><img src={xelLogo} alt="Elastic Project" className="logo" /></a>
 		  <h1 className="dnone">
 			<span>elastic</span>
 			<span>project</span>
@@ -46,7 +46,9 @@ export default class Header extends Component {
 		  </h2>
           <Dropdown label="Information">
             <DropdownItem target="_blank" link="https://github.com/elastic-coin/whitepaper">Whitepaper (Outdated / Will be revised)</DropdownItem>
-            <DropdownItem target="_blank" link="https://github.com/elastic-coin/faq">Elastic FAQ</DropdownItem>
+            <DropdownItem target="_blank" link="https://github.com/elastic-coin/elastic-documents/blob/master/elasticPL/README.md">Elastic Programming Language</DropdownItem>
+            <DropdownItem target="_blank" link="https://github.com/elastic-coin/elastic-documents/blob/master/faq/README.md">FAQ</DropdownItem>
+            <DropdownItem target="_blank" link="https://github.com/elastic-coin/elastic.github.io/tree/source/assets">Media</DropdownItem>
           </Dropdown>
           &nbsp;{' '}&nbsp;
           <Dropdown label="XEL Wallets">
