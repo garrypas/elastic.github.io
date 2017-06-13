@@ -34,6 +34,14 @@ export default class WhatCanDoElastic extends Component {
           <br />
           <a
             className="mui-btn mui-btn mui-btn--raised mui-btn--primary"
+            href={'https://github.com/elastic-coin/elastic-pl/blob/master/README.md'}
+            target="_blank"
+          >
+            Elastic PL
+          </a>
+		  
+		  <a
+            className="mui-btn mui-btn mui-btn--raised mui-btn--primary"
             href={'/blog/2017-04-05-elastic-compared-to-other-competitors/'}
             target="_blank"
           >
