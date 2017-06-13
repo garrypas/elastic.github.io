@@ -45,8 +45,8 @@ export default class Header extends Component {
 			<span>Revolution</span>
 		  </h2>
           <Dropdown label="Information">
-            <DropdownItem target="_blank" link="//github.com/elastic-coin/whitepaper">Whitepaper (Outdated / Will be revised)</DropdownItem>
-            <DropdownItem target="_blank" link="//github.com/elastic-coin/faq">Elastic FAQ</DropdownItem>
+            <DropdownItem target="_blank" link="https://github.com/elastic-coin/whitepaper">Whitepaper (Outdated / Will be revised)</DropdownItem>
+            <DropdownItem target="_blank" link="https://github.com/elastic-coin/faq">Elastic FAQ</DropdownItem>
           </Dropdown>
           &nbsp;{' '}&nbsp;
           <Dropdown label="XEL Wallets">
@@ -61,7 +61,7 @@ export default class Header extends Component {
           </Dropdown>
           <br />
           <Dropdown label="Explorers">
-            <DropdownItem target="_blank" link="//elasticexplorer.org">elasticexplorer.org</DropdownItem>
+            <DropdownItem target="_blank" link="http://elasticexplorer.org">elasticexplorer.org</DropdownItem>
           </Dropdown>
           &nbsp;{' '}&nbsp;
           <Dropdown label="Exchanges">
