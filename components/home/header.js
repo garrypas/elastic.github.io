@@ -52,14 +52,15 @@ export default class Header extends Component {
           </Dropdown>
           &nbsp;{' '}&nbsp;
           <Dropdown label="XEL Wallets">
-            <DropdownItem target="_blank" link="https://wallet.elastic.pw/">Community Wallet (testnet)</DropdownItem>
-            <DropdownItem target="_blank" link="http://ec2-52-28-123-208.eu-central-1.compute.amazonaws.com:6876/">Dev Wallet (testnet)</DropdownItem>
+            <DropdownItem target="_blank" link="https://wallet.elastic.pw/">Online Wallet (#1)</DropdownItem>
+            <DropdownItem target="_blank" link="https://wallet.elasticexplorer.org/">Online Wallet (#2)</DropdownItem>
           </Dropdown>
           &nbsp;{' '}&nbsp;
           <Dropdown label="XEL Nodes">
-            <DropdownItem target="_blank" link="http://node1.elastic.pw/">Community XEL Node 1 (testnet)</DropdownItem>
-            <DropdownItem target="_blank" link="http://node2.elastic.pw/">Community XEL Node 2 (testnet)</DropdownItem>
-            <DropdownItem target="_blank" link="http://ec2-52-28-123-208.eu-central-1.compute.amazonaws.com:6876/">Dev Node</DropdownItem>
+            <DropdownItem target="_blank" link="http://node1.elastic.pw/">Community XEL Node (#1)</DropdownItem>
+            <DropdownItem target="_blank" link="http://node1.elastic.pw/">Community XEL Node (#2)</DropdownItem>
+            <DropdownItem target="_blank" link="http://node1.elasticexplorer.org/">Dev XEL Node (#1)</DropdownItem>
+            <DropdownItem target="_blank" link="http://node2.elasticexplorer.org/">Dev XEL Node (#2)</DropdownItem>
           </Dropdown>
           <br />
           <Dropdown label="Explorers">
@@ -67,7 +68,7 @@ export default class Header extends Component {
           </Dropdown>
           &nbsp;{' '}&nbsp;
           <Dropdown label="Exchanges">
-            <DropdownItem target="_blank" link="javascript:void">Elastic is on The TestNet</DropdownItem>
+            <DropdownItem target="_blank" link="javascript:void">preparing..</DropdownItem>
           </Dropdown>
           &nbsp;{' '}&nbsp;
           <SocialLinks />
