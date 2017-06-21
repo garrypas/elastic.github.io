@@ -1,8 +1,8 @@
-## So We Have
+## Facts
 
-- Elastic Coin knows XEL
+- Elastic Coin is known as XEL
 - Total Coin Supply: 100.000.000 XEL
-- Distributed Coin: 100.000.000 XEL
+- Distributed Coins: 100.000.000 XEL
 - Elastic has own programming language, knows "Elastic PL"
 - Normal nodes that broadcast unverified POW/bounties 
 - Super nodes that verify work and broadcast the verified POW/bounties
