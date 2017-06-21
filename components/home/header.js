@@ -58,7 +58,7 @@ export default class Header extends Component {
           &nbsp;{' '}&nbsp;
           <Dropdown label="XEL Nodes">
             <DropdownItem target="_blank" link="http://node1.elastic.pw/">Community XEL Node (#1)</DropdownItem>
-            <DropdownItem target="_blank" link="http://node1.elastic.pw/">Community XEL Node (#2)</DropdownItem>
+            <DropdownItem target="_blank" link="http://node2.elastic.pw/">Community XEL Node (#2)</DropdownItem>
             <DropdownItem target="_blank" link="http://node1.elasticexplorer.org/">Dev XEL Node (#1)</DropdownItem>
             <DropdownItem target="_blank" link="http://node2.elasticexplorer.org/">Dev XEL Node (#2)</DropdownItem>
           </Dropdown>
