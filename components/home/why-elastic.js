@@ -53,7 +53,7 @@ export default class WhatCanDoElastic extends Component {
             href={'/blog/2017-06-11-bitcoin-mining-with-decentralized-supercomputer/'}
             target="_blank"
           >
-            Bitcoin Mining with Elastic PL (therotical)
+            Bitcoin Mining with Elastic PL (theoretical)
           </a>
 		  
         </Col>
