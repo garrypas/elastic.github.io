@@ -68,7 +68,8 @@ export default class Header extends Component {
           </Dropdown>
           &nbsp;{' '}&nbsp;
           <Dropdown label="Exchanges">
-            <DropdownItem target="_blank" link="javascript:void">preparing..</DropdownItem>
+            <DropdownItem target="_blank" link="https://bittrex.com/Market/Index?MarketName=BTC-XEL">bittrex.com</DropdownItem>
+            <DropdownItem target="_blank" link="https://heatwallet.com">heatwallet.com</DropdownItem>
           </Dropdown>
           &nbsp;{' '}&nbsp;
           <SocialLinks />
