@@ -34,7 +34,7 @@ export default class Footer extends Component {
               .
             </Col>
             <Col xs="6" className="mui--text-right">
-               by <a  href="javascript:void(0)">Elastic Community</a> <Heart /> Donate: <code>ELASTIC_FOUNDATION_WALLET</code>
+               by <a  href="javascript:void(0)">Elastic Community</a> <Heart /> Donate: <code>XEL-ZW42-587L-2BTH-8JTCY</code>
             </Col>
           </Row>
         </Container>
